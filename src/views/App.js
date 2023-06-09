@@ -14,9 +14,14 @@ function App() {
 
 
       <Routes>
-        <Route path="/" element={<ComoActuar/>} />
-        <Route path="/Ecosistema" element={<Ecosistema></Ecosistema>} />
-        <Route path="*" element={<p>no hay</p>}></Route>
+        <Route path="/" element={<PagInicio />} />
+        <Route path="/ecosistema" element={<Ecosistema />} />
+        <Route path="/extincion" element={<Extincion />} />
+        <Route path="/noticias" element={<Noticias />} />
+        <Route path="/animales" element={<Animales />} />
+        <Route path="/animal-por-dia" element={<AnimalPorDia />} />
+        <Route path="/ayudanos" element={<Ayudanos />} />
+        <Route path="/como-actuar" element={<ComoActuar />} />
       </Routes>
 
 
