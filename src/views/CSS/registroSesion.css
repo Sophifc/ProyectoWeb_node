@@ -1,0 +1,61 @@
+.falsobody {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A7E9AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .barra {
+    width: 95%;
+    margin-left: 15px;
+  }
+  
+  .tituloRegistro {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tituloRegistro::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    height: 3px;
+    width: 95%;
+    background-color: #84B6F4;
+  }
+  
+  .prueba {
+    border: none;
+    background: transparent;
+    color: black;
+    height: 30px;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .datosRegistro {
+    padding-top: 2%;
+    margin: 1% 0% 0% 0%;
+  }
+  
+  .buttonRegistro {
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    width: 70%;
+    background-color: #84B6F4;
+    color: white;
+    margin-left: 110px;
+  }
+
+  

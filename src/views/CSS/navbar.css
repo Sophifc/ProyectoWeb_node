@@ -1,0 +1,13 @@
+.logo {
+    width: 40px; /* Ajusta el valor según el tamaño deseado */
+    height: auto;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0px;
+    padding: 2px;
+  }

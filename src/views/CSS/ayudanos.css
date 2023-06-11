@@ -1,0 +1,25 @@
+
+  .logo {
+    height: 5%;
+    width: 5%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    margin: 0.5%;
+  }
+  .img-fluid {
+    width: 40%;
+    margin: 88px;
+  }
+  .card {
+    width: 40%;
+    background-color: #EFF9BF;
+  }

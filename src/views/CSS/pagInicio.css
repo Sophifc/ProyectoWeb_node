@@ -1,0 +1,56 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+/*-----------------------NUEVO CCS------------------------------------------*/
+
+.custom-nav {
+  margin-left: 150px;
+  margin-right: 170px;
+}
+.custom-nav-link {
+  white-space: nowrap; /* Evita que el texto se desplace hacia abajo */
+}
+.carousel-item {
+  height: 30rem;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+
+.dimensionPinicio {
+  height: 250px;
+  width: 100%;
+}
+
+.separadorInicio{
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloPagInicio{
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #A7E9AF;
+}
+.logo-footer {
+  padding-top: 15px;
+  height: 55%;
+  width: 55%;
+}
+.foooter {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.terminos {
+  padding-top: 25px;
+  align-items: center;
+  justify-content: center;
+}

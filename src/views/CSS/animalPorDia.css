@@ -1,0 +1,23 @@
+  .bodyDia{
+    background: linear-gradient(#0050B2, #585bf0, #84B6F4)
+  }
+  
+  .footer {
+    padding: 10px;
+    background-color: #A7E9AF;
+  }
+  .logo-footer {
+    padding-top: 15px;
+    height: 55%;
+    width: 55%;
+  }
+  .foooter {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .terminos {
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+  }
