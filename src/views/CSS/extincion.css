@@ -1,21 +1,8 @@
 
-  .logo {
-    height: 5%;
-    width: 5%;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #A7E9AF;
-    margin: 0;
-    padding: 0;
-  }
-  .row {
+  .rowExtincion {
     margin: 0.5%;
   }
-  .card {
+  .cardExtincion {
     width: 49%;
     margin: 7px;
     background-color: #EFF9BF;

@@ -1,4 +1,4 @@
-
+import './CSS/noticias.css';
 import NavBar from "./navBar";
 import { Fragment } from "react";
 
@@ -12,7 +12,7 @@ function Noticias() {
         <><NavBar></NavBar>
 
             <Fragment>
-                <div class="row">
+                <div class="row rowNoticias">
 
 
                     <div class="card mb-3">

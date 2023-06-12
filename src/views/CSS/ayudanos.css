@@ -1,25 +1,12 @@
 
-  .logo {
-    height: 5%;
-    width: 5%;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #A7E9AF;
-    margin: 0;
-    padding: 0;
-  }
-  .row {
+  .rowAyudanos {
     margin: 0.5%;
   }
-  .img-fluid {
+  .img-fluid-Ayudanos {
     width: 40%;
     margin: 88px;
   }
-  .card {
+  .cardAyudanos {
     width: 40%;
     background-color: #EFF9BF;
   }

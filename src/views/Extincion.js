@@ -1,4 +1,4 @@
-
+import './CSS/extincion.css';
 import NavBar from "./navBar";
 import { Fragment } from "react";
 
@@ -12,9 +12,9 @@ function Extincion() {
         <><NavBar></NavBar>
 
             <Fragment>
-                <div class="row">
+                <div class="row rowExtincion">
 
-                    <div class="card">
+                    <div class="card cardExtincion">
                         <div class="card-body">
                             <h5 class="card-title">Tortuga Carey</h5>
                             <p class="card-text">DESCRIPCION
@@ -25,7 +25,7 @@ function Extincion() {
                     </div>
 
 
-                    <div class="card">
+                    <div class="card cardExtincion">
                         <div class="card-body">
                             <h5 class="card-title">Vaquita Marina</h5>
                             <p class="card-text">DESCRIPCION

@@ -1,3 +1,4 @@
+import './CSS/ayudanos.css';
 import NavBar from "./navBar";
 import { Fragment } from "react";
 
@@ -11,10 +12,10 @@ function Ayudanos() {
         <><NavBar></NavBar>
 
             <Fragment>
-                <div class="row">
-                    <img src={ayudanos} class="img-fluid" alt="..."/>
+                <div class="row rowAyudanos">
+                    <img src={ayudanos} class="img-fluid-Ayudanos" alt="..."/>
 
-                        <div class="card">
+                        <div class="card cardAyudanos">
                             <div class="card-body">
                                 <h5 class="card-title">Formulario para agregar comentarios</h5>
                                 <p class="card-text">PROXIMAMENTE
