@@ -1,0 +1,30 @@
+/* 
+  .logo {
+    height: 5%;
+    width: 5%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0;
+    padding: 0;
+  } */
+
+  .bodyAnimales{
+    background-color: #585bf0;
+
+  }
+  .Animales {
+    margin: 0.5%;
+  }
+  .cardAnimales {
+    background-color: #EFF9BF;
+    border-radius: 10px;
+  } 
+  .card-img-top-Animales {
+    padding: 1%;
+    border-radius: 10px;
+  }

@@ -1,0 +1,44 @@
+
+  /* .logo {
+    width: 40px;
+    height: auto;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0px;
+    padding: 2px;
+  } */
+  /* .custom-nav {
+    margin-left: 150px;
+    margin-right: 170px;
+  }
+  .custom-nav-link {
+    white-space: nowrap; 
+  } */
+  .bodyComoActuar{
+    background-color: #585bf0;
+  }
+  .rowComoActuar {
+    margin: 3%;
+  }
+  .colComoActuar {
+    margin: 1%;
+  }
+  .h2-ComoActuar {
+    background: linear-gradient(#6ce27a, #A7E9AF);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    border-end-end-radius: 30%;
+    border-top-left-radius: 30%;
+  }
+  .caja-ComoActuar {
+    padding: 5%;
+  }
+  .caja2-ComoActuar {
+    padding: 1%;
+  }
