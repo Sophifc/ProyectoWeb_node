@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './CSS/inicioSesion.css';
-import users from './ArchivosJson/datos.json';
+import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 function BasicExample() {
@@ -12,19 +12,23 @@ function BasicExample() {
     navigate(-1);
   };
 
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
     const { email, password } = data;
-
-    // Verificar las credenciales en el archivo JSON
-    const user = users.find((user) => user.email === email && user.password === password);
-
-    if (user) {
-      console.log("Inicio de sesión exitoso");
-      navigate('/');
-    } else {
-      console.log("Credenciales inválidas");
+  
+    try {
+      // Enviar una solicitud a la API para verificar las credenciales
+      const usuario = await axios.post('http://localhost:9000/login', { email, password });
+  
+      if (usuario.data.success) {
+        console.log("Inicio de sesión exitoso");
+        navigate('/');
+      } else {
+        console.log("Credenciales inválidas");
+      }
+    } catch (error) {
+      console.error("Error al enviar la solicitud de inicio de sesión:", error);
     }
-
+  
     reset();
   };
 

@@ -16,7 +16,7 @@ const Formulario = () => {
 
   const onSubmit = async (data) => {
     try {
-      await axios.post('http://localhost:9000/api/formulario', data);
+      await axios.post('http://localhost:9000/agregar/formulario', data);
       reset();
       console.log('Los datos del formulario se han enviado correctamente');
       navigate('/iniciar');
@@ -83,12 +83,14 @@ const Formulario = () => {
 
             <Form.Group as={Col} controlId="formGridState">
               <Form.Label>Genero</Form.Label>
-              <Form.Select defaultValue="Choose...">
-                <option>Hombre</option>
-                <option>Mujer</option>
-                <option>No Binario</option>
-                <option>Otros</option>
+              <Form.Select defaultValue="Choose..." {...register('genero', { required: true })}>
+                <option value="">Seleccionar...</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="No Binario">No Binario</option>
+                <option value="Otros">Otros</option>
               </Form.Select>
+              {errors.genero?.type === 'required' && <p>El campo género es requerido</p>}
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridZip">
