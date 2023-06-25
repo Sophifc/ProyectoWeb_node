@@ -1,0 +1,42 @@
+.rowAyudanos {
+  margin: 0.5%;
+  background-color: #585bf0;
+}
+
+.tituloAyudanos{
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  margin-top: 50px;
+}
+
+
+.img-fluid-Ayudanos {
+  width: 40%;
+  margin: 88px;
+}
+
+.cardAyudanos {
+  width: 40%;
+  background-color: #EFF9BF;
+}
+
+.formAyudanos {
+  margin-bottom: 180px;
+}
+
+.inputAyudanos {
+  margin: 10px 10px 10px 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.labelAyudanos {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+
+
+}
