@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function  NavBar() {
   return (
-    <Navbar className="header">
+    <Navbar className="header" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo"></img>EcoSfera</Navbar.Brand>
