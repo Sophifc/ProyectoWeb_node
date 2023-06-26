@@ -118,6 +118,12 @@ const Formulario = () => {
             </Button>
 
           </div>
+
+          <Form.Group className="mb-3 captcha">
+            <div class="g-recaptcha" data-sitekey="6Lcv5swmAAAAAC5MDrJJsVQAOfnOAAdxDowqG44V">
+            </div>
+          </Form.Group>
+
         </Form>
 
 

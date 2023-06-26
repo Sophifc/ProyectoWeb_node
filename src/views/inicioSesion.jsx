@@ -55,6 +55,10 @@ function BasicExample() {
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Recuerdame" />
         </Form.Group>
+        <Form.Group className="mb-3 captcha">
+            <div class="g-recaptcha" data-sitekey="6Lcv5swmAAAAAC5MDrJJsVQAOfnOAAdxDowqG44V">
+            </div>
+          </Form.Group>
         <div className="button-container">
           <Button className="buttonInicio" type="submit" onClick={handleSubmit}>
             Enviar
