@@ -1,8 +1,10 @@
+
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import delfin from '../images/delfin.jpg';
+import delfines from '../images/delfines32.jpg';
 import pinguino from '../images/pinguinos.jpg';
-import tortugas from '../images/tortuga.jpg';
+import tortugas from '../images/tortugas22.jpg';
+
 
 const captionStyle = {
     color: 'black',
@@ -16,23 +18,27 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+    <Carousel activeIndex={index} onSelect={handleSelect} responsive>
+      <Carousel.Item >
         <img
-          className="d-block w-100"
+          className=" w-100"
+          expand="lg"
           src={pinguino}
           alt="First slide"
+
         />
         <Carousel.Caption style={captionStyle}>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item d-md-block>
         <img
-          className="d-block w-100"
-          src={delfin}
+          className=" w-100 "
+          expand="lg"
+          src={delfines}
           alt="Second slide"
+          
         />
 
         <Carousel.Caption style={captionStyle}>
@@ -40,9 +46,10 @@ function ControlledCarousel() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img
-          className="d-block w-100"
+          className="  w-100"
+          expand="lg"
           src={tortugas}
           alt="Third slide"
         />
