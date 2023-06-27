@@ -24,8 +24,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption style={captionStyle}>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>La muerte de un pingüino tras tragar una mascarilla alerta sobre los “residuos de la pandemia”</h3>
+          <p>El ejemplar, probablemente desorientado, apareció muerto hace dos semanas en una playa cerca de São Paulo; la necropsia ha desvelado que ingirió una mascarilla ​</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,8 +36,8 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption style={captionStyle}>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 >España es el país de Europa con más delfines cautivos: una joven reúne 150.000 firmas para liberarlos</h3>
+          <p>La activista por los derechos de los animales Olivia Mandle y la ONG World Animal Protection piden en el Congreso la prohibición de los delfinarios</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -48,9 +48,9 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption style={captionStyle}>
-          <h3>Third slide label</h3>
+          <h3>Una tortuga marina desova por primera vez en una playa de Mallorca</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          El ejemplar ha puesto 106 huevos que eclosionarán este verano en el arenal urbano de Can Pere Antoni de Palma
           </p>
         </Carousel.Caption>
       </Carousel.Item>
