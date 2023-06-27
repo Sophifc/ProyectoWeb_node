@@ -15,6 +15,8 @@ import ComoActuar from './comoActuras';
 import RegistroSesion from './registroSesion';
 import InicioSesion from './inicioSesion';
 
+import PerfilUsuario from './perilUsuario';
+
 
 function App() {
   return (
@@ -34,11 +36,13 @@ function App() {
         <Route path="/iniciar" element={<InicioSesion />} />
         <Route path="/Registrarse" element={<RegistroSesion />} />
 
-      </Routes>
+        <Route path="/perfilUsuario" element={<PerfilUsuario />} />
 
+      </Routes>
 
 
   );
 }
 
 export default App;
+
