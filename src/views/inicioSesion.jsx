@@ -4,10 +4,16 @@ import Form from 'react-bootstrap/Form';
 import './CSS/inicioSesion.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from './AuthContext';
+import { useContext } from "react";
+import decodificar from './validarRol';
 
-function BasicExample() {
+
+function Login() {
   const { register, formState: { errors }, handleSubmit, reset } = useForm({});
   const navigate = useNavigate();
+  const { setIsLoggedIn } = useContext(AuthContext);
+
   const handleGoBack = () => {
     navigate(-1);
   };
@@ -21,7 +27,15 @@ function BasicExample() {
   
       if (usuario.data.success) {
         console.log("Inicio de sesión exitoso");
-        navigate('/');
+        const token = usuario.data.token;
+        localStorage.setItem('token', token);
+        setIsLoggedIn(true);
+        const rol = decodificar();
+        if (rol === 'admin') {
+          navigate('/adminConfig')
+        } else {
+          navigate('/');
+        }
       } else {
         console.log("Credenciales inválidas");
       }
@@ -55,10 +69,6 @@ function BasicExample() {
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Recuerdame" />
         </Form.Group>
-        <Form.Group className="mb-3 captcha">
-            <div class="g-recaptcha" data-sitekey="6Lcv5swmAAAAAC5MDrJJsVQAOfnOAAdxDowqG44V">
-            </div>
-          </Form.Group>
         <div className="button-container">
           <Button className="buttonInicio" type="submit" onClick={handleSubmit}>
             Enviar
@@ -81,4 +91,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Login;

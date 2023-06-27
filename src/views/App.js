@@ -1,10 +1,6 @@
 
 import { Routes, Route } from 'react-router-dom';
 import Ecosistema from './Ecosistema';
-
-import EcosistemaSelva from './ecosistemaSelva';
-import EcosistemaDesierto from './ecosistemaDesierto';
-
 import PagInicio from './PagInicio';
 import Extincion  from './Extincion';
 import Noticias from './noticias';
@@ -14,19 +10,17 @@ import Ayudanos from './ayudanos';
 import ComoActuar from './comoActuras';
 import RegistroSesion from './registroSesion';
 import InicioSesion from './inicioSesion';
-
-import PerfilUsuario from './perilUsuario';
-
+import { AuthProvider } from './AuthContext';
+import Perfil from './perfil';
+import PrivateRoute from './PrivateRoute';
+import ConfigAdmin from './pagAdmin';
 
 function App() {
   return (
+    <AuthProvider>
       <Routes>
         <Route path="/" element={<PagInicio />} />
         <Route path="/ecosistema" element={<Ecosistema />} />
-
-        <Route path="/ecosistemaSelva" element={<EcosistemaSelva />} />
-        <Route path="/ecosistemaDesierto" element={<EcosistemaDesierto />} />
-
         <Route path="/extincion" element={<Extincion />} />
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/animales" element={<Animales />} />
@@ -35,14 +29,12 @@ function App() {
         <Route path="/como-actuar" element={<ComoActuar />} />
         <Route path="/iniciar" element={<InicioSesion />} />
         <Route path="/Registrarse" element={<RegistroSesion />} />
-
-        <Route path="/perfilUsuario" element={<PerfilUsuario />} />
-
+        <Route path="/perfil" element={<PrivateRoute><Perfil /></PrivateRoute>} />
+        <Route path="/adminConfig" element={<ConfigAdmin />} />
       </Routes>
-
+    </AuthProvider>
 
   );
 }
 
 export default App;
-
