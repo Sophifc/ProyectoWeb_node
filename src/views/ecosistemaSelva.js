@@ -24,12 +24,12 @@ function EcosistemaSelva() {
 
                             <div class="card cardEcosistemaSelva">
                                 <div class="card-body">
-                                    <h5 class="card-title">ECOSISTEMA MARINO</h5>
-                                    <p class="card-text">DESCRIPCION
+                                    <h5 class="card-title">ECOSISTEMA SELVATICO</h5>
+                                    <p class="card-text">El ecosistema Selva o bosque lluvioso tropical es el más rico en biodiversidad, es uno de los garantes del equilibrio ecológico, reguladores y retenedores de agua dulce y de suelos, así como “pulmones” de la Tierra, ya que toman dióxido de carbono del aire, transformándolo en el vital oxigeno para la vida
                                     </p>
-                                    <p class="card-text"><small class="text-body-secondary">tiempo de actualizacion</small></p>
+                                    
                                 </div>
-                                <img src={eco1} class="card-img-bottom cardImgBajoSelva" alt="..."/>
+                                <img src={eco3} class="card-img-bottom cardImgBajoSelva" alt="..."/>
                             </div>
 
       
@@ -58,20 +58,20 @@ function EcosistemaSelva() {
                         <div class="col-lg-5">
 
                             <div class="card mb-3 cardEcosistemaSelva">
-                                <img src={eco3} class="card-img-top cardImgAltoSelva" alt="..."/>
+                                <img src={eco1} class="card-img-top cardImgAltoSelva" alt="..."/>
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <h5 class="card-title">Jaguar</h5>
+                                        <p class="card-text">La Belleza del Jaguar. Tosco y macizo, con un cuerpo robusto y las extremidades sólidas y más bien cortas. Su cabeza es voluminosa, tiene la mandíbula prominente, el color de sus ojos varía de amarillo oro a un amarillo verdoso y sus orejas son relativamente pequeñas y redondeadas. Este hermoso mamífero de 45 a 130 kg de peso, 1.70 a 2.30 m de longitud desde la nariz hasta la punta de la cola y con un promedio de vida de 20 años, presenta pelaje color café amarillento con rosetas negras de forma irregular y en algunos casos negro, es ágil para correr y nadar grandes distancias.</p>
+                                        
                                     </div>
                             </div>
 
 
                             <div class="card cardEcosistemaSelva">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Tucan</h5>
+                                    <p class="card-text">Los tucanes ​​ son una familia de aves piciformes muy amplia, ya que alberga seis géneros y cuarenta y dos especies diferentes. Se caracterizan por poseer un pico muy desarrollado y de vivos colores. Miden entre 18 y 65 cm, siendo el tucán toco el de mayor tamaño.Normalmente prefieren las selvas húmedas tropicales de baja altitud, aunque también existen especies adaptadas a los bosques templados a 3000 msnm. Sus nidos suelen estar en agujeros dentro de los árboles. Es una especie sedentaria, que habita la misma región toda su vida.</p>
+                                    
                                 </div>
                                 <img src={eco2} class="card-img-bottom cardImgBajoSelva" alt="..."/>
                             </div>
@@ -131,4 +131,5 @@ function EcosistemaSelva() {
     }
     
     export default EcosistemaSelva;
+           
            
