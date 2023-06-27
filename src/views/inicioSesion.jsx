@@ -67,9 +67,9 @@ function Login() {
             {...register('password', { required: true })} />
           {errors.password?.type === 'required' && <p>El campo contraseña es requerido</p>}
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+        {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Recuerdame" />
-        </Form.Group>
+        </Form.Group> */}
         <Form.Group className="mb-3 captcha">
             <div class="g-recaptcha" data-sitekey="6Lcv5swmAAAAAC5MDrJJsVQAOfnOAAdxDowqG44V">
             </div>
@@ -83,9 +83,9 @@ function Login() {
           </Button>
   
         </div>
-        <Form.Group>
+        {/* <Form.Group>
           <Form.Label className="pInicio py-2">¿Olvidaste tu contraseña?</Form.Label>
-        </Form.Group>
+        </Form.Group> */}
         <Form.Group>
           <Form.Label className="pInicio">¿No tienes cuenta? Registrate</Form.Label>
         </Form.Group>
