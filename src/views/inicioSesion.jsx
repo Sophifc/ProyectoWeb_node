@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from './AuthContext';
 import { useContext } from "react";
 import decodificar from './validarRol';
+import { Link } from 'react-router-dom';
 
 
 function Login() {
@@ -87,9 +88,8 @@ function Login() {
           <Form.Label className="pInicio py-2">¿Olvidaste tu contraseña?</Form.Label>
         </Form.Group> */}
         <Form.Group>
-          <Form.Label className="pInicio">¿No tienes cuenta? Registrate</Form.Label>
+          <Form.Label className="pInicio py-2"><Link to="/Registrarse">¿No tienes cuenta? Registrate</Link></Form.Label>
         </Form.Group>
-
 
       </Form>
     </div>
