@@ -25,9 +25,9 @@ function Ecosistema() {
                             <div class="card cardEcosistema">
                                 <div class="card-body">
                                     <h5 class="card-title">ECOSISTEMA MARINO</h5>
-                                    <p class="card-text">DESCRIPCION
+                                    <p class="card-text">El ecosistema marino, origen de la vida y fuente de una gigantesca y a veces desconocida diversidad de regiones, plantas marinas, animales marinos, microorganismos y moleculas organicas. Aunque su apariencia parezca homogenea, es de los ecosistemas mas heterogeneos del planeta con caracteristicas muy distintas desde los polos al tropico, asi como de uno a otro lado del mundo
                                     </p>
-                                    <p class="card-text"><small class="text-body-secondary">tiempo de actualizacion</small></p>
+
                                 </div>
                                 <img src={eco1} class="card-img-bottom cardImgBajo" alt="..."/>
                             </div>
@@ -60,18 +60,18 @@ function Ecosistema() {
                             <div class="card mb-3 cardEcosistema">
                                 <img src={eco3} class="card-img-top cardImgAlto" alt="..."/>
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <h5 class="card-title">Pez Payaso</h5>
+                                        <p class="card-text">El pez payaso, tambien conocido como pez anemona, es conocido por sus brillantes colores blancos y anaranjados, y forma parte de la familia Pomacentridae.</p>
+                                        
                                     </div>
                             </div>
 
 
                             <div class="card cardEcosistema">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Tortuga Verde Marina</h5>
+                                    <p class="card-text">La tortuga verde marina es una especie de aguas tropicales con el mayor numero de hembras a nivel mundial y siendo la segunda especie mas abudante del mediterraneo</p>
+
                                 </div>
                                 <img src={eco2} class="card-img-bottom cardImgBajo" alt="..."/>
                             </div>
@@ -129,5 +129,8 @@ function Ecosistema() {
     }
     
     export default Ecosistema;
+           
+           
+
            
            
