@@ -20,6 +20,7 @@ import { AuthProvider } from './AuthContext';
 import Perfil from './perfil';
 import PrivateRoute from './PrivateRoute';
 import ConfigAdmin from './pagAdmin';
+import PrivateAdminRoute from './PrivateAdminRoute';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
         <Route path="/iniciar" element={<InicioSesion />} />
         <Route path="/Registrarse" element={<RegistroSesion />} />
         <Route path="/perfil" element={<PrivateRoute><Perfil /></PrivateRoute>} />
-        <Route path="/adminConfig" element={<ConfigAdmin />} />
+        <Route path="/adminConfig" element={<PrivateAdminRoute><ConfigAdmin /></PrivateAdminRoute>} />
       </Routes>
     </AuthProvider>
 
