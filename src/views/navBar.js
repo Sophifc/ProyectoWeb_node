@@ -29,11 +29,11 @@ function  NavBar() {
               <NavDropdown.Item as={Link} to="/animales">Animal por ecosistema</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Ecosistemas" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/ecosistema">Desertico</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/ecosistemaDesierto">Desertico</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">Marino</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/ecosistema">Marino</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">Terrestre</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/ecosistemaSelva">Selvatico</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/como-actuar" className="custom-nav-link">¿Como actuar?</Nav.Link>
             <Nav.Link as={Link} to="/ayudanos">Ayudanos!</Nav.Link>
