@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import delfin from '../images/delfin.jpg';
+import delfin from '../images/delfines32.jpeg';
 import pinguino from '../images/pinguinos.jpg';
-import tortugas from '../images/tortuga.jpg'
+import tortugas from '../images/tortugas22.jpeg'
 
 const captionStyle = {
     color: 'black',
