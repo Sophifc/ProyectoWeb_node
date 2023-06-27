@@ -7,6 +7,7 @@ import './CSS/registroSesion.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
+
 const Formulario = () => {
   const { register, formState: { errors }, handleSubmit, reset } = useForm({});
   const navigate = useNavigate();
@@ -109,6 +110,11 @@ const Formulario = () => {
             <Form.Check className="barra" type="checkbox" label="Aceptar terminos y condiciones" />
           </Form.Group>
 
+          <Form.Group className="mb-3 captcha">
+            <div class="g-recaptcha" data-sitekey="6Lcv5swmAAAAAC5MDrJJsVQAOfnOAAdxDowqG44V">
+            </div>
+          </Form.Group>
+
           <div className="button-container">
             <Button className="buttonRegistro" type="submit" onClick={handleSubmit}>
               Enviar
@@ -118,12 +124,6 @@ const Formulario = () => {
             </Button>
 
           </div>
-
-          <Form.Group className="mb-3 captcha">
-            <div class="g-recaptcha" data-sitekey="6Lcv5swmAAAAAC5MDrJJsVQAOfnOAAdxDowqG44V">
-            </div>
-          </Form.Group>
-
         </Form>
 
 
