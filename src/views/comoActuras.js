@@ -41,35 +41,35 @@ function ComoActuar() {
                                     <div class="input-group-text">
                                         <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" id="check1" />
                                     </div>
-                                    <label class="form-control">Idea1</label>
+                                    <label class="form-control">No utiliar transporte que elimine residuos toxicos</label>
                                 </div>
 
                                 <div class="input-group mb-3">
                                     <div class="input-group-text">
                                     <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" id="check2" />
                                     </div>
-                                    <label class="form-control">Idea2</label>
+                                    <label class="form-control">No botar basura en el mar, campo, entre otros</label>
                                 </div>
 
                                 <div class="input-group mb-3">
                                     <div class="input-group-text">
                                     <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" id="check3" />
                                     </div>
-                                    <label class="form-control">Idea3</label>
+                                    <label class="form-control">Utilizar contenedores de reciclaje para la basura</label>
                                 </div>
 
                                 <div class="input-group mb-3">
                                     <div class="input-group-text">
                                     <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" id="check4" />
                                     </div>
-                                    <label class="form-control">Idea4</label>
+                                    <label class="form-control">Respetar las areas protegidas y reservas naturales</label>
                                 </div>
 
                                 <div class="input-group mb-3">
                                     <div class="input-group-text">
                                     <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" id="check5" />
                                     </div>
-                                    <label class="form-control">Idea5</label>
+                                    <label class="form-control">Ahorra agua</label>
                                 </div>
 
                             </div>
