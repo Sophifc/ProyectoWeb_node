@@ -28,6 +28,7 @@ function Login() {
       if (usuario.data.success) {
         console.log("Inicio de sesión exitoso");
         const token = usuario.data.token;
+        localStorage.setItem('email', email);
         localStorage.setItem('token', token);
         setIsLoggedIn(true);
         const rol = decodificar();
