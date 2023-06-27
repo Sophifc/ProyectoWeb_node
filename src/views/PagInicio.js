@@ -7,6 +7,8 @@ import { Fragment } from 'react';
 import logo from '../images/logo.png';
 import desierto from '../images/desierto.jpg';
 import marino from '../images/marino.jpg';
+import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 
 function PagInicio() {
   return (
@@ -19,7 +21,7 @@ function PagInicio() {
           <div className="card-img-overlay">
             <h5 className="card-title tituloPagInicio py-4">ECOSISTEMA DESÉRTICO</h5>
             <p className="card-text separadorInicio">Toda la información del ecosistema desertico en este lugar.</p>
-            <a href="#" className="btn btn-primary">Mas información</a>
+            <div class="botonInicio"><Nav.Link as={Link} to="/ecosistemaDesierto">Mas información</Nav.Link></div>
           </div>
         </div>
         
@@ -29,7 +31,7 @@ function PagInicio() {
           <div className="card-img-overlay">
             <h5 className="card-title tituloPagInicio py-4">ECOSISTEMA MARINO</h5>
             <p className="card-text separadorInicio">Toda la información del ecosistema marino en este lugar.</p>
-            <a href="#" className="btn btn-primary">Mas información</a>
+            <div class="botonInicio"><Nav.Link as={Link} to="/ecosistema">Mas información</Nav.Link></div>
           </div>
         </div>
 
@@ -74,3 +76,4 @@ function PagInicio() {
 }
 
 export default PagInicio;
+
