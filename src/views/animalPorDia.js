@@ -23,11 +23,11 @@ function AnimalPorDia() {
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title py-2">Pingüinos</h5>
-                                    <p className="card-text px-2 py-2">Breve descripcion.</p>
-                                    <p className="card-text px-2 py-2">Caracteristicas.</p>
-                                    <p className="card-text px-2 py-2">Ecosistema.</p>
-                                    <p className="card-text px-2 py-2">Tips de cuidados/Que hacer en caso de.</p>
+                                    <h5 className="card-title py-2">Pingüino Emperador</h5>
+                                    <p className="card-text px-2 py-2">Los pingüinos provienen de la familia de las aves ya que son aves marinas no voladoras distribuidas en el hemisferio sur</p>
+                                    <p className="card-text px-2 py-2">Son bipedos, excelentes nadadores, su plumaje consta de 3 capas distintas, se comunican por graznidos, son sociables, formadores de extensas colonias y famosos por su monogamia</p>
+                                    <p className="card-text px-2 py-2">En general el hemisferio sur, un lugar frio y marino</p>
+                                    <p className="card-text px-2 py-2">Si se trabaja en un zoologico, lo mas importante es la temperatura, la cual debe estar entre -5ºC y 8ºC, ademas de una correcta alimentacion y un espacio limpio</p>
                                 </div>
                             </div>
                         </div>
