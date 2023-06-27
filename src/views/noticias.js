@@ -17,7 +17,7 @@ function Noticias() {
                 <div class="row rowNoticias">
 
 
-                    <div class="card mb-3">
+                    <div class="card cardNoticias mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src={noticia1} class="img-fluid rounded-start" alt="Foto de una noticia"/>
@@ -33,7 +33,7 @@ function Noticias() {
                     </div>
 
 
-                    <div class="card mb-3" >
+                    <div class="card cardNoticias mb-3" >
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src={noticia2} class="img-fluid rounded-start" alt="Foto de una noticia"/>
@@ -86,5 +86,4 @@ function Noticias() {
 }
 
 export default Noticias;
-
 
