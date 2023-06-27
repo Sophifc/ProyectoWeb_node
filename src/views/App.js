@@ -1,6 +1,10 @@
 
 import { Routes, Route } from 'react-router-dom';
 import Ecosistema from './Ecosistema';
+
+import EcosistemaSelva from './ecosistemaSelva';
+import EcosistemaDesierto from './ecosistemaDesierto';
+
 import PagInicio from './PagInicio';
 import Extincion  from './Extincion';
 import Noticias from './noticias';
@@ -11,13 +15,16 @@ import ComoActuar from './comoActuras';
 import RegistroSesion from './registroSesion';
 import InicioSesion from './inicioSesion';
 
+
 function App() {
   return (
-
-
       <Routes>
         <Route path="/" element={<PagInicio />} />
         <Route path="/ecosistema" element={<Ecosistema />} />
+
+        <Route path="/ecosistemaSelva" element={<EcosistemaSelva />} />
+        <Route path="/ecosistemaDesierto" element={<EcosistemaDesierto />} />
+
         <Route path="/extincion" element={<Extincion />} />
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/animales" element={<Animales />} />
@@ -26,6 +33,7 @@ function App() {
         <Route path="/como-actuar" element={<ComoActuar />} />
         <Route path="/iniciar" element={<InicioSesion />} />
         <Route path="/Registrarse" element={<RegistroSesion />} />
+
       </Routes>
 
 
