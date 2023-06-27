@@ -1,9 +1,11 @@
-
+  .bodyExtincion{
+    background-color: #585bf0;
+  }
   .rowExtincion {
     margin: 0.5%;
   }
   .cardExtincion {
-    width: 49%;
+    width: 738px;
     margin: 7px;
     background-color: #EFF9BF;
   }

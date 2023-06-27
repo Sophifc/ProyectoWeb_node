@@ -1,6 +1,9 @@
+.bodyAyudanos{
+  background-color: #585bf0;
+}
+
 .rowAyudanos {
   margin: 0.5%;
-  background-color: #585bf0;
 }
 
 .tituloAyudanos{
@@ -12,12 +15,11 @@
 
 
 .img-fluid-Ayudanos {
-  width: 40%;
-  margin: 88px;
+  width: 725px;
 }
 
 .cardAyudanos {
-  width: 40%;
+  width: 770px;
   background-color: #EFF9BF;
 }
 
