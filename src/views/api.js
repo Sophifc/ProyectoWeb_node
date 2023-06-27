@@ -158,6 +158,21 @@ app.post('/login', (req, res) => {
     }
   });
 });
+
+app.post('/perfil',(req, res) => {
+  const { email } = req.body;
+  const sql = `SELECT * FROM usuarios WHERE correo = ?`;
+  const values = [email];
+
+  connection.query(sql, values, (error, results) => {
+    if (error) {
+      console.error("Error al ejecutar la consulta:", error);
+      res.status(500).json({ success: false, message: "Error en el servidor" });
+      return;
+    }
+    res.json(results);
+  });
+});
   
 app.put('/actualizar/:id', verifyJwt, (req, res) => {
   const { id } = req.params;
