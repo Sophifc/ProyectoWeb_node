@@ -195,7 +195,7 @@ app.put('/actualizar/:id', verifyJwt, (req, res) => {
   
     connection.query(sql, error => {
       if (error) throw error;
-      res.send('Delete customer');
+      res.send('Usuario Eliminado');
     });
   });
 
