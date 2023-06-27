@@ -24,12 +24,12 @@ function EcosistemaDesierto() {
 
                             <div class="card cardEcosistemaDesierto">
                                 <div class="card-body">
-                                    <h5 class="card-title">ECOSISTEMA MARINO</h5>
-                                    <p class="card-text">DESCRIPCION
+                                    <h5 class="card-title">ECOSISTEMA DESERTICO</h5>
+                                    <p class="card-text">El ecosistema desértico se desarrolla en lugares donde la pluviosidad es muy escasa. Los desiertos varían dependiendo de los patrones pluviométricos, temperatura y substratos (rocas, arena, residuos volcánicos, etc.). Los desiertos de latitudes templadas están distantes de las fuentes oceánicas de humedad
                                     </p>
-                                    <p class="card-text"><small class="text-body-secondary">tiempo de actualizacion</small></p>
+                                    
                                 </div>
-                                <img src={eco1} class="card-img-bottom cardImgBajo" alt="..."/>
+                                <img src={eco2} class="card-img-bottom cardImgBajo" alt="..."/>
                             </div>
 
       
@@ -60,20 +60,20 @@ function EcosistemaDesierto() {
                             <div class="card mb-3 cardEcosistemaDesierto">
                                 <img src={eco3} class="card-img-top cardImgAltoDes" alt="..."/>
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <h5 class="card-title">Fenec</h5>
+                                        <p class="card-text">Los zorros del desierto, como también son conocidos a los zorros de Fénec se caracterizan por poseer un tamaño bastante reducido y contar con unas orejas muy desarrolladas, adaptadas perfectamente al desierto. Su piel es muy suave con un color entre crema y marrón hasta llegar a la punta de su cola de color negro.</p>
+                                        
                                     </div>
                             </div>
 
 
                             <div class="card cardEcosistemaDesierto">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Suricata</h5>
+                                    <p class="card-text">Es una especie diurna y de costumbres sociales. Son animales excavadores, que viven en grandes redes subterráneas con múltiples entradas. Sólo las dejan durante el día. Las suricatas tienen garras fuertes y curvadas que utilizan para cavar, y un hocico bastante puntiagudo. El pelaje se caracteriza por ser de colores ocres y marrones (de acuerdo a donde viven). Los suricatos pueden abrir y cerrar sus orejas, además de que utilizan las marcas oscuras que poseen alrededor de sus ojos a modo de unas peculiares gafas de sol.</p>
+
                                 </div>
-                                <img src={eco2} class="card-img-bottom cardImgBajoDes" alt="..."/>
+                                <img src={eco1} class="card-img-bottom cardImgBajoDes" alt="..."/>
                             </div>
 
 
@@ -129,4 +129,5 @@ function EcosistemaDesierto() {
     }
     
     export default EcosistemaDesierto;
+           
            
