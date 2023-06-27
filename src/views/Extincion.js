@@ -19,9 +19,9 @@ function Extincion() {
                     <div class="card cardExtincion">
                         <div class="card-body">
                             <h5 class="card-title">Tortuga Carey</h5>
-                            <p class="card-text">DESCRIPCION
+                            <p class="card-text">La tortuga carey, un animal sumamente migratorio, que vive en aguas tropicales, caracterizado por ser mas chico que otras tortugas, un par de garras en cada aleta y un llamativo caparazon, ha sido declarado en peligro critico de extincion principalmente gracias al impacto humano
                             </p>
-                            <p class="card-text"><small class="text-body-secondary">tiempo de actualizacion</small></p>
+                            <p class="card-text"><small class="text-body-secondary">Publicado hace 3 horas</small></p>
                         </div>
                         <img src={extincion1} class="card-img-bottom" alt="..." />
                     </div>
@@ -30,9 +30,9 @@ function Extincion() {
                     <div class="card cardExtincion">
                         <div class="card-body">
                             <h5 class="card-title">Vaquita Marina</h5>
-                            <p class="card-text">DESCRIPCION
+                            <p class="card-text">La vaquita marina, una de las 7 especies de marsopa, familiares de los delfines, caracterizado por ser robusto, de aletas pectorales largas, cabeza redonda y hocico corto, ha sido declarado al borde de la extincion, quedando al menos 19 de estas en el mundo
                             </p>
-                            <p class="card-text"><small class="text-body-secondary">tiempo de actualizacion</small></p>
+                            <p class="card-text"><small class="text-body-secondary">Publicado hace 20 horas</small></p>
                         </div>
                         <img src={extincion2} class="card-img-bottom" alt="..." />
                     </div>
