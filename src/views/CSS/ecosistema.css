@@ -1,17 +1,4 @@
-/* 
-  .logo {
-    height: 5%;
-    width: 5%;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #A7E9AF;
-    margin: 0;
-    padding: 0;
-  } */
+
   .rowEcosistema {
     margin: 3%;
   }
@@ -19,7 +6,7 @@
     background-color: #585bf0;
   }
   .cardEcosistema {
-    background-color: #EFF9BF;
+    background-color: #aae8f0;
   }
   .cardImgBajo {
     margin: 1%;
@@ -58,4 +45,5 @@
     /*tipografía texto*/
     border-radius: 50px;
   }
+  
   
