@@ -23,6 +23,7 @@ function generarToken(id, rol) {
 //------------------------------------------------------------------------------------------------------//
 const mysql = require('mysql2')
 const express = require('express')
+const rateLimit = require("express-rate-limit")
 const bodyParser = require('body-parser')
 const cors = require('cors');
 const PORT = process.env.PORT || 9000;
@@ -30,6 +31,14 @@ const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 5,
+  message: "Demasiadas peticiones desde esta IP, por favor pruebe dentro de 15 minutos"
+})
+
+app.use(limiter)
 
 const connection = mysql.createConnection({
     host: '127.0.0.1',
