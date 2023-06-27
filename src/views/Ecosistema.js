@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import NavBar from "./navBar";
 import { Fragment } from "react";
 import './CSS/ecosistema.css'
@@ -6,6 +6,7 @@ import eco1 from '../images/eco1.jpg';
 import eco2 from '../images/eco2.jpg';
 import eco3 from '../images/eco3.jpg';
 import flecha from '../images/flecha.png';
+import Nav from 'react-bootstrap/Nav';
 
 function Ecosistema() {
     return (
@@ -38,7 +39,11 @@ function Ecosistema() {
                                     </div>
                                     <div class="col-md-8 col8Ecosistema">
                                         <div class="card-body">
-                                            <button class="button-Ecosistema" type="submit" id="check">Vamos a ver su Fauna</button>
+
+                                            <div class="button-Ecosistema">
+                                            <Nav.Link  as={Link} to="/animales" >Vamos a ver su fauna</Nav.Link>
+                                            </div>
+                                            
                                         </div>
 
                                     </div>
